@@ -1,6 +1,6 @@
 FROM cmfatih/phantomjs
 MAINTAINER binux <roy@binux.me>
-
+ENV TZ "Asia/Shanghai"
 # install python
 RUN apt-get update && \
         apt-get install -y python python-dev python-distribute python-pip && \
